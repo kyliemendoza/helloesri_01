@@ -18,10 +18,11 @@
     <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
     <script src="https://js.arcgis.com/4.28/"></script>
 
-    <script>
+   <script>
       require(["esri/config", "esri/Map", "esri/views/MapView"], function(esriConfig, Map, MapView) {
 
-        esriConfig.apiKey = "AAPK38961f69b763446a8a93074277f6c658monrdVmdEHRWTyT7kHHF_0qYVXyDdCF8RQ2Z8pUR4r52dvVz8Ytp2CV1iEQsh2yt";
+// i think it was the type of api key. this key is set only as basemap
+        esriConfig.apiKey = "AAPK9c89b2be3b2847e5855098989dee99b2ti5ZLtJOzNptY3_yhg1lc2nqbYUD8RuNm4u3-LVBPsb_GdnzndOpiPIEc8_lM4bG";
 
         const map = new Map({
           basemap: "arcgis/topographic" // basemap styles service
@@ -41,4 +42,4 @@
   <body>
     <div id="viewDiv"></div>
   </body>
-</html>
+</html>  
